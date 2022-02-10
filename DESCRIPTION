@@ -1,0 +1,46 @@
+Package: subsidios
+Title: Subsídios Econômicos
+Version: 0.0.0.9000
+Authors@R: person('Fernando', 'Bastos', email = 'fernando.bastos.neto@gmail.com', role = c('cre', 'aut'))
+Description: Dados Econômicos e Comerciais.
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.1),
+    shiny (>= 1.6.0.9000),
+    glue,
+    here,
+    usethis,
+    rsconnect,
+    tinytex,
+    wbstats,
+    rmarkdown,
+    pkgload,
+    barao (>= 0.1.0),
+    magrittr,
+    dplyr,
+    fs,
+    stringr,
+    tibble,
+    rlang,
+    htmltools,
+    remotes,
+    kableExtra,
+    spelling,
+    lubridate,
+    golem,
+    gert,
+    comerciobr (>= 0.1.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+Remotes:  
+    fernandobastosneto/barao,
+    fernandobastosneto/subsidios,
+    rstudio/shiny,
+    fernandobastosneto/comerciobr
+URL: https://github.com/fernandobastosneto/subsidios
+BugReports: https://github.com/fernandobastosneto/subsidios/issues
